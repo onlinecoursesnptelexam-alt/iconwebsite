@@ -5,9 +5,12 @@
   "main": "index.html",
   "scripts": {
     "build": "echo 'Build complete - static site ready'",
-    "start": "echo 'Server started - static site ready'"
+    "start": "npx serve -s . -l 3000"
   },
   "keywords": ["romantic", "hearts", "gift", "special"],
   "author": "Your Name",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
 }
