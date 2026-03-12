@@ -1,0 +1,13 @@
+{
+  "name": "iconwebsite",
+  "version": "1.0.0",
+  "description": "Romantic website for someone special",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build complete - static site ready'",
+    "start": "echo 'Server started - static site ready'"
+  },
+  "keywords": ["romantic", "hearts", "gift", "special"],
+  "author": "Your Name",
+  "license": "ISC"
+}
