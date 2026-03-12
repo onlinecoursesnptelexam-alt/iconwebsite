@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Someone Very Special ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script&family=Pacifico&family=Satisfy&family=Noto+Kufi+Arabic&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<h1 class="title">For Someone Very Special 🤍🌸</h1>
+
+<div class="heart-container" id="heartContainer"></div>
+
+<!-- GIFT WRAPPER WITH MESSAGE INSIDE -->
+<div class="gift-wrapper" onclick="toggleMessage()">
+    <div class="gift-box">
+        <div class="gift-bow"></div>
+        <div class="gift-message" id="specialMessage">
+            <p>your perfect, strong and best.</p>
+            <p>I WANNA HUG YOU...</p>
+            <p>I LOVE YOU chiku</p>
+        </div>
+    </div>
+    <div class="gift-text">🎁 Click for surprise!</div>
+</div>
+
+<!-- IMAGE VIEWER -->
+
+<div id="viewer" class="viewer">
+
+<button class="close-btn" onclick="closeViewer()">✖</button>
+
+<div class="circle-wrapper">
+
+<div class="border-ring">
+
+<img id="mainImage">
+
+</div>
+
+<!-- CURVED TEXT -->
+
+<svg class="text-ring" viewBox="0 0 600 600">
+
+<defs>
+
+<path id="bottomArc"
+d="M100,450 A250,250 0 0,0 500,450" />
+
+</defs>
+
+<text>
+
+<textPath id="captionPath"
+href="#bottomArc"
+startOffset="50%"
+text-anchor="middle"> </textPath>
+
+</text>
+
+</svg>
+
+</div>
+
+<div class="audio-visualizer" id="audioVisualizer">
+    <div class="audio-bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <button class="audio-control" id="audioControl" onclick="toggleAudio()">❚❚</button>
+</div>
+<audio id="musicPlayer"></audio>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
